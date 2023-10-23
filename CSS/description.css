@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); 
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    margin: 0%;
+    background-image: url(/Image/descBg.jpg);
+    background-size: cover;
+
+}
+.intro{
+    padding-left: 5%;
+    padding-top: 10%;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.hey{
+font-size: 350%;
+}
+
+.go-button a{
+      
+    display: inline-block;
+    background: #99d8ff;
+    text-decoration: none;
+    color: #000;
+    font-size: 40px;
+    padding: 9px 97px;
+    margin-top: 2px;
+    font-weight: 400;
+    border-radius: 65px;
+    border: 4px solid #000;
+    transition: all 0.3s ease;
+    font-family: 'Autour One', cursive;
+
+ }
+ .go-button :hover{
+    color:brown;
+    background: transparent;
+    border: 4px solid brown;
+ }
+.go-button{
+    padding-left: 20%;
+    padding-top: 8%;
+    padding-bottom: 9%;
+}
+
+.really-button{
+    padding-top: 5%;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.S1{
+    padding-top: 10%;
+    text-align: center;
+    font-size: 200%;
+    padding-bottom: 5%;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.s1-para{
+    padding-top: 7%;
+    font-family: 'Autour One', cursive;
+    font-size:100% ;
+}
+.s2{
+    padding-top: 10%;
+    text-align: center;
+    font-size: 175%;
+    padding-bottom: 2%;
+}
+.step-in{
+    border: 6px solid;
+    padding:5%;
+    color: white;
+    border-radius: 65px;
+    font-family: 'Autour One', cursive;
+}
+.s2-para{
+    padding: 10%;
+    font-family: 'Autour One', cursive;
+
+}
+.sign-up{
+    padding-top: 1%;
+    font-family: 'Roboto Mono', monospace;
+}
+.really-button {
+	-webkit-animation: bounce-top 5s 10 both;
+	        animation: bounce-top 5s 10 both;
+            padding-bottom:2% ;
+}
+.sign-up {
+	-webkit-animation: bounce-top 5s 10 both;
+	        animation: bounce-top 5s 10 both;
+}
+
+@-webkit-keyframes really-button {
+    0% {
+      -webkit-transform: translateY(-45px);
+              transform: translateY(-45px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      -webkit-transform: translateY(-24px);
+              transform: translateY(-24px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    65% {
+      -webkit-transform: translateY(-12px);
+              transform: translateY(-12px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    82% {
+      -webkit-transform: translateY(-6px);
+              transform: translateY(-6px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    93% {
+      -webkit-transform: translateY(-4px);
+              transform: translateY(-4px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
+  @keyframes bounce-top {
+    0% {
+      -webkit-transform: translateY(-45px);
+              transform: translateY(-45px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      -webkit-transform: translateY(-24px);
+              transform: translateY(-24px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    65% {
+      -webkit-transform: translateY(-12px);
+              transform: translateY(-12px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    82% {
+      -webkit-transform: translateY(-6px);
+              transform: translateY(-6px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    93% {
+      -webkit-transform: translateY(-4px);
+              transform: translateY(-4px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes sign-up {
+    0% {
+      -webkit-transform: translateY(-45px);
+              transform: translateY(-45px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      -webkit-transform: translateY(-24px);
+              transform: translateY(-24px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    65% {
+      -webkit-transform: translateY(-12px);
+              transform: translateY(-12px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    82% {
+      -webkit-transform: translateY(-6px);
+              transform: translateY(-6px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    93% {
+      -webkit-transform: translateY(-4px);
+              transform: translateY(-4px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
+  @keyframes bounce-top {
+    0% {
+      -webkit-transform: translateY(-45px);
+              transform: translateY(-45px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      -webkit-transform: translateY(-24px);
+              transform: translateY(-24px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    65% {
+      -webkit-transform: translateY(-12px);
+              transform: translateY(-12px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    82% {
+      -webkit-transform: translateY(-6px);
+              transform: translateY(-6px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    93% {
+      -webkit-transform: translateY(-4px);
+              transform: translateY(-4px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
+  .welcome {
+	-webkit-animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+  
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  .step-in {
+	-webkit-animation: color-change-5x 8s cubic-bezier(0.470, 0.000, 0.745, 0.715) infinite alternate-reverse both;
+	        animation: color-change-5x 8s cubic-bezier(0.470, 0.000, 0.745, 0.715) infinite alternate-reverse both;
+}
+
+@-webkit-keyframes color-change-5x {
+    0% {
+      background: #19dcea;
+    }
+    25% {
+      background: #b22cff;
+    }
+    50% {
+      background: #ea2222;
+    }
+    75% {
+      background: #f5be10;
+    }
+    100% {
+      background: #3bd80d;
+    }
+  }
+  @keyframes color-change-5x {
+    0% {
+      background: #19dcea;
+    }
+    25% {
+      background: #b22cff;
+    }
+    50% {
+      background: #ea2222;
+    }
+    75% {
+      background: #f5be10;
+    }
+    100% {
+      background: #3bd80d;
+    }
+  }

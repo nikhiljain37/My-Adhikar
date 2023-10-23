@@ -1,0 +1,117 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .slider {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+
+  .slider .controls {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+  }
+
+  .slider .controls > div {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .slider .controls > .up {
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+  }
+
+  .slider .controls > .down {
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  .slider .wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  .slider .wrapper .left,
+  .slider .wrapper .right {
+    width: 50%;
+    overflow: hidden;
+  }
+
+  .slider .wrapper .left > div,
+  .slider .wrapper .right > div {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-in-out;
+  }
+
+  .slider .wrapper .left > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 100px 0 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .slider .wrapper .left > div h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: aliceblue;
+  }
+
+  .slider .wrapper .left > div p {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .slider .wrapper .right > div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .slider .wrapper .right > div:nth-child(1) {
+    margin-top: -400vh;
+  }
+
+  .start-button{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .start-button a {
+    display: inline-block;
+    background: #fff;
+    text-decoration: none;
+    color: #111;
+    font-size: 40px;
+    padding: 13px 71px;
+    margin-top: 30px;
+    font-weight: 400;
+    border-radius: 65px;
+    border: 4px solid #111;
+    transition: all 0.3s ease;
+  }
+  .start-button :hover{
+  color: #fff;
+  background: transparent;
+  border: 4px solid #fff;
+  }

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Start Learning</title>
+  <link rel="stylesheet" href="/CSS/startlearning.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-eNsRU7wJnoXk6vOiPCwB8eMnm3QzWxfg2miLFLiKizB5XULH04o+1A6OHAPVv+ShP" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/28c17ecfc1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="slider">
+    <div class="controls">
+      <div class="up">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+      <div class="down">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="left">
+        <div>
+          <h2>Child Marriage</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore placeat impedit, quod molestias doloribus dolores blanditiis officia animi debitis facere porro magnam ad sint laudantium ipsam, enim unde? Placeat, deserunt?</p>
+          <div class="start-button">
+            <a href="">Start</a>
+        </div>
+        </div>
+        <div>
+          <h2>Child Labour</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore placeat impedit, quod molestias doloribus dolores blanditiis officia animi debitis facere porro magnam ad sint laudantium ipsam, enim unde? Placeat, deserunt?</p>
+          <div class="start-button">
+            <a href="">Start</a>
+        </div>
+      </div>
+        <div>
+          <h2>Child Abuse</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore placeat impedit, quod molestias doloribus dolores blanditiis officia animi debitis facere porro magnam ad sint laudantium ipsam, enim unde? Placeat, deserunt?</p>
+          <div class="start-button">
+            <a href="">Start</a>
+        </div>
+      </div>
+        <div>
+          <h2>Right to Education</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore placeat impedit, quod molestias doloribus dolores blanditiis officia animi debitis facere porro magnam ad sint laudantium ipsam, enim unde? Placeat, deserunt?</p>
+          <div class="start-button">
+            <a href="">Start</a>
+        </div>
+      </div>
+        <div>
+          <h2>Fundamental Rights</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore placeat impedit, quod molestias doloribus dolores blanditiis officia animi debitis facere porro magnam ad sint laudantium ipsam, enim unde? Placeat, deserunt?</p>
+          <div class="start-button">
+            <a href="">Start</a>
+        </div>
+      </div>
+      </div>
+      <div class="right">
+        <div>
+          <img src="/Image/humanrights.avif" alt="">
+        </div>
+        <div>
+          <img src="/Image/education.avif" alt="">
+        </div>
+        <div>
+          <img src="/Image/abuse.avif" alt="">
+        </div>
+        <div>
+          <img src="/Image/labour.jpg" alt="">
+        </div>
+        <div>
+          <img src="/Image/marriage.avif" alt="">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <script >
+      let slider = document.querySelector(".slider");
+      let currentSlide = 0;
+      let totalSlides = slider.querySelectorAll(".wrapper .left > div").length - 1;
+
+      slider.querySelector(".controls .up").addEventListener("click", function() {
+        if (currentSlide == 0) {
+          return;
+        }
+        currentSlide--;
+        slider.querySelector(".wrapper .left div").style.marginTop = `${currentSlide * -100}vh`;
+        slider.querySelector(".wrapper .right div").style.marginTop = `${(totalSlides - currentSlide) * -100}vh`;
+      });
+
+      slider.querySelector(".controls .down").addEventListener("click", function() {
+        if (currentSlide == totalSlides) {
+          return;
+        }
+        currentSlide++;
+        slider.querySelector(".wrapper .left div").style.marginTop = `${currentSlide * -100}vh`;
+        slider.querySelector(".wrapper .right div").style.marginTop = `${(totalSlides - currentSlide) * -100}vh`;
+    });
+  </script>
+
+</body>
+</html>

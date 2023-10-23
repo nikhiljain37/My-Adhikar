@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Adhikar</title>
+    <link rel="stylesheet" href="/CSS/description.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <div class="intro">
+    <div class="S">
+
+    <a class="hey"><span style="color: #ffb703 ; font-family: Dancing Script; ">Hey there,</span> <span style="color: brown;" class="auto-type"></span> </a>
+        <br>
+        <div class="s-para" style="font-size: 175%; padding-top: 2%; font-family: 'Autour One', cursive;">
+      <a> Ready to go on a <span style="color: #fb5607;">superhero mission</span> for,</a>
+      <br>
+       <a>your rights in India? </a>
+      <br>
+      <a>  Let's dive in and have some serious fun!</a>
+    </div>
+    </div>
+    <div class="go-button">
+        <a href="#S1">GO!</a>
+    </div>
+</div>
+
+   <section  class="S1" id="S1">
+    <div>
+
+        <a class="welcome" style="font-size:300%;"><span style="font-family: 'Pacifico', cursive;">Welcome to </span><span style="font-family: 'Pacifico', cursive; color: rgb(26, 100, 122);">My Adhikar</span></span></a>
+        <br>
+     <div class="s1-para">
+        <a > a magical world where you're the hero. </a>
+        <br>
+        <a >Your choices shape the story </a> 
+        <br>
+        <a > while you embark on exciting adventures to learn about your rights!</a>
+    </div>
+    </div>
+    <div class="really-button" >
+        <a href="#s2" style=" text-decoration: none;   color: #fb5607;" >really?</a>
+    </div>
+   </section>
+
+
+   <section class="s2" id="s2">
+<div>
+    <a class="step-in" style="font-size:200%;"> Step in to My Adhikar</a>
+    <br>
+    <div class="s2-para">
+
+    <a> Not just a game but a movement for child rights in India.
+    </a>
+    <br>
+    <a> Choose, learn, and join us in making the world a better place for every child.
+    </a>
+    <br>
+     <a>Together, we can make the world a better place for all children. </a>
+    </div>
+    <div class="sign-up">
+    <a  href="/HTML/signup.html" style=" text-decoration: none;   color: #fb5607;" >Let the adventure begin!</a></div>
+</div>
+
+ </section>
+
+
+ <script>
+
+    var typed = new Typed (".auto-type",{
+        strings: ["Future Changemakers!", "Upcoming Innovators!", "Tomorrow's Leaders!"],
+        typeSpeed : 100,
+        backSpeed : 100,
+        loop : true
+    });
+
+    ScrollReveal({ 
+        reset: true,
+        distance: '80px',
+        duration: 2000,
+        delay: 200
+    });
+
+    ScrollReveal().reveal('.s1-para', {origin: 'left' });
+    ScrollReveal().reveal('.s2-para', {origin: 'right' });
+
+ </script>
+
+</body>
+</html>
